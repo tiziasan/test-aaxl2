@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="ASCII"?>
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" name="speedControlLoopProcess_impl_Instance" category="process">
+  <featureInstance name="cc_run_cc">
+    <feature xsi:type="aadl2:DataPort" href="../SoftwareProcesses.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedDataPort.0"/>
+  </featureInstance>
+  <featureInstance name="cc_inst_velocity">
+    <feature xsi:type="aadl2:DataPort" href="../SoftwareProcesses.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedDataPort.1"/>
+  </featureInstance>
+  <featureInstance name="cc_desired_speed" direction="out">
+    <feature xsi:type="aadl2:DataPort" href="../SoftwareProcesses.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedDataPort.2"/>
+  </featureInstance>
+  <componentInstance name="speed_control_loop" category="thread">
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Thread_Properties.aadl#Thread_Properties.Dispatch_Protocol"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:NamedValue">
+          <namedValue xsi:type="aadl2:EnumerationLiteral" href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.3/@ownedLiteral.0"/>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../SoftwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
+    </ownedPropertyAssociation>
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Timing_Properties.aadl#Timing_Properties.Period"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:IntegerLiteral" value="5">
+          <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.16/@ownedLiteral.3"/>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../SoftwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.1"/>
+    </ownedPropertyAssociation>
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/Timing_Properties.aadl#Timing_Properties.Compute_Execution_Time"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:RangeValue">
+          <minimum xsi:type="aadl2:IntegerLiteral" value="2">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.16/@ownedLiteral.3"/>
+          </minimum>
+          <maximum xsi:type="aadl2:IntegerLiteral" value="2">
+            <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.16/@ownedLiteral.3"/>
+          </maximum>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../SoftwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.2"/>
+    </ownedPropertyAssociation>
+    <featureInstance name="run_cc">
+      <feature xsi:type="aadl2:DataPort" href="../SoftwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedDataPort.0"/>
+    </featureInstance>
+    <featureInstance name="inst_velocity">
+      <feature xsi:type="aadl2:DataPort" href="../SoftwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedDataPort.1"/>
+    </featureInstance>
+    <featureInstance name="desired_speed" direction="out">
+      <feature xsi:type="aadl2:DataPort" href="../SoftwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedDataPort.2"/>
+    </featureInstance>
+    <flowSpecification name="speed_control_loop_new_flow_spec" source="//@componentInstance.0/@featureInstance.1" destination="//@componentInstance.0/@featureInstance.2">
+      <flowSpecification href="../SoftwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedFlowSpecification.0"/>
+    </flowSpecification>
+    <flowSpecification name="speed_control_loop_new_flow_spec2" source="//@componentInstance.0/@featureInstance.0" destination="//@componentInstance.0/@featureInstance.2">
+      <flowSpecification href="../SoftwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedFlowSpecification.1"/>
+    </flowSpecification>
+    <subcomponent xsi:type="aadl2:ThreadSubcomponent" href="../SoftwareProcesses.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedThreadSubcomponent.0"/>
+    <index>0</index>
+    <classifier xsi:type="aadl2:ThreadType" href="../SoftwareParts.aadl#SoftwareParts.speed_control_loop"/>
+  </componentInstance>
+  <flowSpecification name="speedControlLoopProcess_new_flow_spec" source="//@featureInstance.1" destination="//@featureInstance.2">
+    <flowSpecification href="../SoftwareProcesses.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedFlowSpecification.0"/>
+  </flowSpecification>
+  <flowSpecification name="speedControlLoopProcess_new_flow_spec2" source="//@featureInstance.0" destination="//@featureInstance.2">
+    <flowSpecification href="../SoftwareProcesses.aadl#/0/@ownedPublicSection/@ownedClassifier.4/@ownedFlowSpecification.1"/>
+  </flowSpecification>
+  <connectionInstance name="cc_run_cc -> speed_control_loop.run_cc" kind="portConnection" destination="//@componentInstance.0/@featureInstance.0" source="//@featureInstance.0">
+    <connectionReference context="/" source="//@featureInstance.0" destination="//@componentInstance.0/@featureInstance.0">
+      <connection xsi:type="aadl2:PortConnection" href="../SoftwareProcesses.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedPortConnection.1"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance name="cc_inst_velocity -> speed_control_loop.inst_velocity" kind="portConnection" destination="//@componentInstance.0/@featureInstance.1" source="//@featureInstance.1">
+    <connectionReference context="/" source="//@featureInstance.1" destination="//@componentInstance.0/@featureInstance.1">
+      <connection xsi:type="aadl2:PortConnection" href="../SoftwareProcesses.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedPortConnection.0"/>
+    </connectionReference>
+  </connectionInstance>
+  <connectionInstance name="speed_control_loop.desired_speed -> cc_desired_speed" kind="portConnection" destination="//@featureInstance.2" source="//@componentInstance.0/@featureInstance.2">
+    <connectionReference context="/" source="//@componentInstance.0/@featureInstance.2" destination="//@featureInstance.2">
+      <connection xsi:type="aadl2:PortConnection" href="../SoftwareProcesses.aadl#/0/@ownedPublicSection/@ownedClassifier.5/@ownedPortConnection.2"/>
+    </connectionReference>
+  </connectionInstance>
+  <systemOperationMode name="No Modes"/>
+  <componentImplementation xsi:type="aadl2:ProcessImplementation" href="../SoftwareProcesses.aadl#SoftwareProcesses.speedControlLoopProcess.impl"/>
+</instance:SystemInstance>

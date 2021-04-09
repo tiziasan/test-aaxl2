@@ -1,0 +1,817 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="8c609c1e-b9eb-4304-b6c3-b2e35c60950e" manual="true">
+    <element uuid="693b3cc4-7a4b-4805-ab2a-ce4c98fa88dd">
+      <element uuid="26b93f3d-9820-4fae-aa3b-148243e9f2c4">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>cruisecontrol_impl_new_connection</seg>
+      </bo>
+      <bendpoints>
+        <point x="95.0" y="503.0"/>
+        <point x="95.0" y="473.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="7babd56c-73de-4c60-8c0c-022fa884e1f3">
+      <element uuid="9de74951-a2c7-4136-b678-b648bee2ff14">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>cruisecontrol_impl_new_connection2</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="8c60bbbe-12f7-4f09-8102-1b453b7be7d6">
+      <element uuid="9ccb3a8c-8a51-4cf0-a250-9f7b82743bb8">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>cruisecontrol_impl_new_connection3</seg>
+      </bo>
+      <bendpoints>
+        <point x="95.0" y="393.0"/>
+        <point x="95.0" y="201.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="7a830e43-2ca1-49cb-8390-1e40f1765fdf">
+      <element uuid="ae345b43-da9b-4585-9f4f-51dadbe01f99">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>cruisecontrol_impl_new_connection4</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="3a8527e1-2ead-42fa-8cad-146be2937120">
+      <element uuid="33e803de-b184-4b3a-90e0-0403780aa6b8">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>cruisecontrol_impl_new_connection5</seg>
+      </bo>
+      <bendpoints>
+        <point x="754.0" y="201.0"/>
+        <point x="754.0" y="313.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="4f61bb9c-8e2a-4f76-b503-d21366f10502">
+      <element uuid="7a75480b-6a44-4b35-99f6-2671bb053f05">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>cruisecontrol_impl_new_connection6</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="bbf3ca42-cc27-4f57-92d8-406cb32b4cc5">
+      <element uuid="b72c50a3-2a2e-433f-825c-3b30410a9065">
+        <bo>
+          <seg>tag</seg>
+          <seg>unidirectional</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>connection</seg>
+        <seg>cruisecontrol_impl_new_connection7</seg>
+      </bo>
+      <contentFilters/>
+    </element>
+    <element uuid="5f9159cf-24dd-4b06-85d7-77d401ccf638" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>cc_bp</seg>
+      </bo>
+      <position y="459.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="c78c1984-6ccf-4c70-a2ac-3060268c2381" dockArea="right">
+      <bo>
+        <seg>feature</seg>
+        <seg>cc_ca</seg>
+      </bo>
+      <position x="2421.0" y="269.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="a91608ad-9f28-4d94-919b-e3e62bd6f939" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>cc_ud</seg>
+      </bo>
+      <position y="563.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="4b1c5acb-aa70-4d98-92a2-cf8fc0a418b5" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>cc_ui</seg>
+      </bo>
+      <position y="511.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="5cfa0a4b-e577-44e9-a39c-8e1970caf55e" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>cc_wrs</seg>
+      </bo>
+      <position y="349.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="110a17b0-8279-40aa-a022-ac8693c50409">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>flowpath_bp_ca</seg>
+      </bo>
+      <bendpoints>
+        <point x="2410.0" y="503.0"/>
+        <point x="2410.0" y="313.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="34d3068b-b6cd-410b-a66d-3e3b7434d332">
+      <bo>
+        <seg>flow_specification</seg>
+        <seg>flowpath_wrs_ca</seg>
+      </bo>
+      <bendpoints>
+        <point x="95.0" y="393.0"/>
+        <point x="95.0" y="50.0"/>
+        <point x="2410.0" y="50.0"/>
+        <point x="2410.0" y="313.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="1200ec39-4ad3-4e7a-881f-ae4e5ae3a17a">
+      <element uuid="97e35f23-63ab-403c-a348-66036e559738">
+        <element uuid="b881dcbd-1308-411e-a888-afa703e0f5cb">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>computethrottlesettingprocess_impl_new_connection</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="955a9eab-2706-471b-b8d6-71f0a9466e15">
+        <element uuid="cca93bae-c999-4fd4-ae73-4f1ab5f1ad61">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>computethrottlesettingprocess_impl_new_connection2</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="daf19ef8-9308-44b1-9766-c79d6c6796e7" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_desired_speed</seg>
+        </bo>
+        <position y="108.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="dc3fc318-6e51-42ba-9b66-8e28cd12bbc0" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_throttle_setting</seg>
+        </bo>
+        <position x="648.0" y="108.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="9a82c67d-67bd-4b1a-a0f9-d7a67a3f6945">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>computethrottlesettingprocess_new_flow_spec</seg>
+        </bo>
+        <bendpoints>
+          <point x="1769.0" y="313.0"/>
+          <point x="1769.0" y="232.0"/>
+          <point x="2241.0" y="232.0"/>
+          <point x="2241.0" y="313.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="d5bb874e-6184-4deb-bd99-a895ba8f1d34">
+        <element uuid="8e4bcbc1-da25-40f9-b1ac-88647dda6846" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>desired_speed</seg>
+          </bo>
+          <position y="38.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="8000aa67-9971-4cf6-a45d-e8129e9d2c39" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>throttle_setting</seg>
+          </bo>
+          <position x="339.0" y="38.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="06cee67f-95a4-4e88-b2bf-5a3bce5d431c">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>compute_throttle_setting_new_flow_spec</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>compute_throttle_setting</seg>
+        </bo>
+        <position x="164.0" y="70.0"/>
+        <size width="452.0" height="90.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="01267994-8a50-4a8a-80a7-d18f350327b0">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>computethrottlesettingprocess</seg>
+      </bo>
+      <position x="1603.0" y="161.0"/>
+      <size width="785.0" height="172.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>subcomponentType</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <element uuid="e7247f15-577c-40ea-8401-cc102ad23a2f">
+      <element uuid="0573340d-2a0b-40a7-8d6a-6c7ddbc5fdbb">
+        <element uuid="f4392cb9-3160-4190-84d3-342267b5a8fb">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>computevelocityprocess_impl_new_connection</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="af305fba-37b4-43db-acae-feb832153d74">
+        <element uuid="f1635836-96e1-4525-b1d6-b2ff94635bfa">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>computevelocityprocess_impl_new_connection2</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="93850699-fc5d-43c9-a300-11dd8861a3d7" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_inst_velocity</seg>
+        </bo>
+        <position x="521.0" y="108.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="44e7c446-d384-456f-9d95-eb4c8e37a530" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_wrs</seg>
+        </bo>
+        <position y="108.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="61e03e74-da13-4c28-933a-37d6075f222c">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>computevelocityprocess_new_flow_spec</seg>
+        </bo>
+        <bendpoints>
+          <point x="188.0" y="201.0"/>
+          <point x="188.0" y="120.0"/>
+          <point x="577.0" y="120.0"/>
+          <point x="577.0" y="201.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="181a83b6-52bc-4e3b-b07b-656900038924">
+        <element uuid="f6dc17ab-e53c-4044-9097-a8545e428655" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>inst_velocity</seg>
+          </bo>
+          <position x="273.0" y="38.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="b83610cd-459e-4dab-82c5-f0f3d75c3399" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>wheel_pulse</seg>
+          </bo>
+          <position y="38.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="f98469ca-efb5-44ae-9182-d4fb0bb185a9">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>compute_velocity_new_flow_spec</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>compute_velocity</seg>
+        </bo>
+        <position x="93.0" y="70.0"/>
+        <size width="369.0" height="90.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="2c23ec61-adf3-45fb-9729-bd9ee5a35abf">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>computevelocityprocess</seg>
+      </bo>
+      <position x="93.0" y="49.0"/>
+      <size width="639.0" height="172.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>subcomponentType</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <element uuid="97e5b85e-2a59-49c5-8c07-473ad7c9c951">
+      <element uuid="b082eb6a-2807-4d07-85c5-9d2cf5f5a7b7">
+        <element uuid="e3acdbab-1d35-480a-9b42-3b3dfb08e6a7">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>scanccinputprocess_impl_new_connection</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="6ba9446d-43a9-440c-b5fe-bf5fc6d8ebe4">
+        <element uuid="3ea47341-029c-4b91-9064-651dd347217a">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>scanccinputprocess_impl_new_connection2</seg>
+        </bo>
+        <bendpoints>
+          <point x="224.33333333333334" y="473.0"/>
+          <point x="224.33333333333334" y="443.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="520ca77e-df1c-4b30-b55f-d36f1fd4df3f">
+        <element uuid="11465c39-d2f5-4e77-969f-8cd3b3d1ed7c">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>scanccinputprocess_impl_new_connection3</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="0d82fee5-09fc-4cfa-88c3-6871393317c5" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_bp</seg>
+        </bo>
+        <position y="188.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="7b266586-72b9-4eca-a21e-8e6ef248e0ee" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_run</seg>
+        </bo>
+        <position x="469.0" y="108.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="7e30d139-fc32-475e-b140-c261245ed2ce" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_wrs</seg>
+        </bo>
+        <position y="108.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="0731d352-93f5-4bd0-b0cf-0c6aa394d7a3">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>scanccinputprocess_new_flow_spec</seg>
+        </bo>
+        <bendpoints>
+          <point x="225.0" y="393.0"/>
+          <point x="225.0" y="312.0"/>
+          <point x="589.0" y="312.0"/>
+          <point x="589.0" y="393.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="72b55ee1-1c53-4974-9e98-ab42c6f0f9cd">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>scanccinputprocess_new_flow_spec2</seg>
+        </bo>
+        <bendpoints>
+          <point x="589.0" y="473.0"/>
+          <point x="589.0" y="393.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="0bf25779-1a06-4a88-b2b4-80892469fcf4">
+        <element uuid="1db5204c-a9c8-4e1f-a21a-94fbd03f9b0f" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>brake_status</seg>
+          </bo>
+          <position y="88.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="23eaf4ad-c4b7-4c46-8155-1951ee8c6701" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>run_cc</seg>
+          </bo>
+          <position x="284.0" y="38.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="e8e02f19-d1e2-4ab0-bc30-eb82147fffff" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>wheel_pulse</seg>
+          </bo>
+          <position y="38.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="a33eb56a-9704-4877-91d4-7176bf5eabdc">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>scan_cc_inputs_new_flow_spec</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="111fbc1a-ccf0-47c3-8e91-be9533bff6e1">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>scan_cc_inputs_new_flow_spec2</seg>
+          </bo>
+          <bendpoints>
+            <point x="354.33333333333337" y="443.0"/>
+            <point x="354.33333333333337" y="393.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>scan_cc_ports</seg>
+        </bo>
+        <position x="93.0" y="70.0"/>
+        <size width="344.0" height="140.0"/>
+        <contentFilters>
+          <filter>features</filter>
+          <filter>internalFeatures</filter>
+          <filter>processorFeatures</filter>
+          <filter>connections</filter>
+          <filter>flowSpecifications</filter>
+        </contentFilters>
+      </element>
+      <element uuid="2ee1f79e-2d1c-4faa-9fc6-cb057867b557">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>scanccinputprocess</seg>
+      </bo>
+      <position x="130.0" y="241.0"/>
+      <size width="529.0" height="240.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>subcomponentType</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <element uuid="ae0d8c36-b108-4c96-a736-a3bd1353f49c">
+      <element uuid="2444dbcc-4fd0-49c3-aba2-27f0b5b89e44">
+        <element uuid="b36776e1-2407-4e05-ba83-57d50cacd570">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>speedcontrolloopprocess_impl_new_connection</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="f8d330a2-d59a-49fe-91e1-43f9b24160e5">
+        <element uuid="b73f57c4-badc-4f66-a829-22eed6d13963">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>speedcontrolloopprocess_impl_new_connection2</seg>
+        </bo>
+        <bendpoints>
+          <point x="904.0" y="393.0"/>
+          <point x="904.0" y="363.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="5845a9a4-1384-4b46-ac87-6a8d9402dcc6">
+        <element uuid="31db94fc-f70f-4f57-92be-fc8e93276cff">
+          <bo>
+            <seg>tag</seg>
+            <seg>unidirectional</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>connection</seg>
+          <seg>speedcontrolloopprocess_impl_new_connection3</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <element uuid="8b877140-5153-4197-b375-80c6ef7c62e9" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_desired_speed</seg>
+        </bo>
+        <position x="699.0" y="129.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="5d4aebfe-4d77-4b84-abdd-ac9d9ba17a26" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_inst_velocity</seg>
+        </bo>
+        <position y="129.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="9859356f-67a3-4660-943a-7bbec18dae00" dockArea="left">
+        <bo>
+          <seg>feature</seg>
+          <seg>cc_run_cc</seg>
+        </bo>
+        <position y="209.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="78e9598a-0847-4e3c-a3b3-0cb69131f809">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>speedcontrolloopprocess_new_flow_spec</seg>
+        </bo>
+        <bendpoints>
+          <point x="904.0" y="313.0"/>
+          <point x="904.0" y="211.0"/>
+          <point x="1441.0" y="211.0"/>
+          <point x="1441.0" y="313.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="1a5362b8-6df3-4c71-a4cf-15f259fe56fa">
+        <bo>
+          <seg>flow_specification</seg>
+          <seg>speedcontrolloopprocess_new_flow_spec2</seg>
+        </bo>
+        <bendpoints>
+          <point x="1441.0" y="393.0"/>
+          <point x="1441.0" y="313.0"/>
+        </bendpoints>
+        <contentFilters/>
+      </element>
+      <element uuid="8e97e6be-aef7-4e7a-bdb3-0379d03a0de6">
+        <element uuid="72439789-5700-4ed9-9bb4-5989f496855d" dockArea="right">
+          <bo>
+            <seg>feature</seg>
+            <seg>desired_speed</seg>
+          </bo>
+          <position x="407.0" y="59.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="8c701d38-43f7-46f7-b07e-006c22db3948" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>inst_velocity</seg>
+          </bo>
+          <position y="59.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="da36dd22-be1e-4b08-9df5-6ebe83e17e98" dockArea="left">
+          <bo>
+            <seg>feature</seg>
+            <seg>run_cc</seg>
+          </bo>
+          <position y="109.0"/>
+          <contentFilters/>
+        </element>
+        <element uuid="46c11ae2-2a69-41c8-b97e-44527865fe7d">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>speed_control_loop_new_flow_spec</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <element uuid="f01e943d-a267-4c81-a915-7b7ae7c174dc">
+          <bo>
+            <seg>flow_specification</seg>
+            <seg>speed_control_loop_new_flow_spec2</seg>
+          </bo>
+          <bendpoints>
+            <point x="1032.0" y="363.0"/>
+            <point x="1032.0" y="313.0"/>
+          </bendpoints>
+          <contentFilters/>
+        </element>
+        <element uuid="1b59fe0e-d67b-4c28-b1e6-e9fa456dd0b5">
+          <bo>
+            <seg>tag</seg>
+            <seg>sc_type</seg>
+          </bo>
+          <contentFilters/>
+        </element>
+        <bo>
+          <seg>subcomponent</seg>
+          <seg>speed_control_loop</seg>
+        </bo>
+        <position x="150.0" y="70.0"/>
+        <size width="517.0" height="161.0"/>
+        <contentFilters>
+          <filter>agree.all</filter>
+          <filter>subcomponentType</filter>
+          <filter>features</filter>
+          <filter>modeTransitions</filter>
+          <filter>modes</filter>
+          <filter>flowSpecifications</filter>
+          <filter>connections</filter>
+          <filter>subcomponents</filter>
+          <filter>subprogramCallSequences</filter>
+          <filter>processorFeatures</filter>
+          <filter>internalFeatures</filter>
+        </contentFilters>
+      </element>
+      <element uuid="abc0d924-45d1-4d8f-93a3-cb35fa07e2ad">
+        <bo>
+          <seg>tag</seg>
+          <seg>sc_type</seg>
+        </bo>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>speedcontrolloopprocess</seg>
+      </bo>
+      <position x="752.0" y="140.0"/>
+      <size width="831.0" height="261.0"/>
+      <contentFilters>
+        <filter>agree.all</filter>
+        <filter>subcomponentType</filter>
+        <filter>features</filter>
+        <filter>modeTransitions</filter>
+        <filter>modes</filter>
+        <filter>flowSpecifications</filter>
+        <filter>connections</filter>
+        <filter>subcomponents</filter>
+        <filter>subprogramCallSequences</filter>
+        <filter>processorFeatures</filter>
+        <filter>internalFeatures</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>cruisecontrol.impl</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="2475.0" height="615.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>softwareapps::cruisecontrol.impl</seg>
+    </context>
+  </config>
+</diagram:Diagram>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="ASCII"?>
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" name="cc_mcu_impl_Instance" category="system">
+  <featureInstance name="CanBA" category="busAccess" direction="out">
+    <feature xsi:type="aadl2:BusAccess" href="../HardwarePlatform.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedBusAccess.0"/>
+  </featureInstance>
+  <componentInstance name="CANbus" category="bus">
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.NetWeight"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:RealLiteral" value="0.3">
+          <unit href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#/0/@ownedPropertyType.0/@ownedLiteral.0"/>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../HardwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.0"/>
+    </ownedPropertyAssociation>
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.BandWidthCapacity"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:RealLiteral" value="10.0">
+          <unit href="platform:/plugin/org.osate.aadl2.contrib/resources/properties/Predeclared_Property_Sets/AADL_Project.aadl#/0/@ownedPropertyType.17/@ownedLiteral.2"/>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../HardwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.3/@ownedPropertyAssociation.1"/>
+    </ownedPropertyAssociation>
+    <subcomponent xsi:type="aadl2:BusSubcomponent" href="../HardwarePlatform.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedBusSubcomponent.0"/>
+    <index>0</index>
+    <classifier xsi:type="aadl2:BusType" href="../HardwareParts.aadl#HardwareParts.CANBus"/>
+  </componentInstance>
+  <componentInstance name="ram" category="memory">
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.NetWeight"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:RealLiteral" value="0.8">
+          <unit href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#/0/@ownedPropertyType.0/@ownedLiteral.0"/>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../HardwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedPropertyAssociation.0"/>
+    </ownedPropertyAssociation>
+    <featureInstance name="PCIba" category="busAccess">
+      <feature xsi:type="aadl2:BusAccess" href="../HardwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedBusAccess.0"/>
+    </featureInstance>
+    <subcomponent xsi:type="aadl2:MemorySubcomponent" href="../HardwarePlatform.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedMemorySubcomponent.0"/>
+    <index>0</index>
+    <classifier xsi:type="aadl2:MemoryType" href="../HardwareParts.aadl#HardwareParts.RAM"/>
+  </componentInstance>
+  <componentInstance name="cpu" category="processor">
+    <ownedPropertyAssociation xsi:type="instance:PropertyAssociationInstance">
+      <property href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#SEI.NetWeight"/>
+      <ownedValue>
+        <ownedValue xsi:type="aadl2:RealLiteral" value="0.5">
+          <unit href="platform:/plugin/org.osate.contribution.sei/resources/properties/SEI.aadl#/0/@ownedPropertyType.0/@ownedLiteral.0"/>
+        </ownedValue>
+      </ownedValue>
+      <propertyAssociation href="../HardwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedPropertyAssociation.0"/>
+    </ownedPropertyAssociation>
+    <featureInstance name="CanBA" category="busAccess">
+      <feature xsi:type="aadl2:BusAccess" href="../HardwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedBusAccess.0"/>
+    </featureInstance>
+    <featureInstance name="PCIBA" category="busAccess">
+      <feature xsi:type="aadl2:BusAccess" href="../HardwareParts.aadl#/0/@ownedPublicSection/@ownedClassifier.0/@ownedBusAccess.1"/>
+    </featureInstance>
+    <subcomponent xsi:type="aadl2:ProcessorSubcomponent" href="../HardwarePlatform.aadl#/0/@ownedPublicSection/@ownedClassifier.1/@ownedProcessorSubcomponent.0"/>
+    <index>0</index>
+    <classifier xsi:type="aadl2:ProcessorType" href="../HardwareParts.aadl#HardwareParts.PowerPC"/>
+  </componentInstance>
+  <systemOperationMode name="No Modes"/>
+  <componentImplementation xsi:type="aadl2:SystemImplementation" href="../HardwarePlatform.aadl#HardwarePlatform.cc_mcu.impl"/>
+</instance:SystemInstance>

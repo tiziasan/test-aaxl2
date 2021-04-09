@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="41705841-f34a-4ab8-87ba-4c730e83a1fe" manual="true">
+    <bo>
+      <seg>classifier</seg>
+      <seg>cc_mcu.dual</seg>
+    </bo>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>hardwareplatform::cc_mcu.dual</seg>
+    </context>
+  </config>
+</diagram:Diagram>

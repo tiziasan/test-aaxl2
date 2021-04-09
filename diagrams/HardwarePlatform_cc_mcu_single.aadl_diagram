@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="ASCII"?>
+<diagram:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:diagram="http://osate.org/diagram" formatVersion="7">
+  <element uuid="1b0dc801-02f8-4d40-b256-879241d0c6e4" manual="true">
+    <element uuid="86be5320-b75d-49b4-82c8-f3a2b66911b1">
+      <bo>
+        <seg>connection</seg>
+        <seg>canba_out</seg>
+      </bo>
+      <bendpoints>
+        <point x="288.0" y="82.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="6ea59ead-d151-49db-8c20-3e3b83dbaa72">
+      <bo>
+        <seg>connection</seg>
+        <seg>power_can</seg>
+      </bo>
+      <bendpoints>
+        <point x="278.0" y="135.0"/>
+        <point x="278.0" y="93.66666666666667"/>
+        <point x="284.0" y="93.66666666666667"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="d2deaa06-ca99-45f0-9259-cfeb33a40d85">
+      <bo>
+        <seg>connection</seg>
+        <seg>power_pci</seg>
+      </bo>
+      <bendpoints>
+        <point x="278.0" y="185.0"/>
+        <point x="278.0" y="255.0"/>
+        <point x="284.0" y="255.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="8e4399b2-9150-41ef-b068-57b1db3151ed">
+      <bo>
+        <seg>connection</seg>
+        <seg>ram_pci</seg>
+      </bo>
+      <bendpoints>
+        <point x="288.0" y="265.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="83f89a9c-d23f-4ec2-83f9-6e040ad6cb55">
+      <bo>
+        <seg>connection</seg>
+        <seg>rom_pci</seg>
+      </bo>
+      <bendpoints>
+        <point x="278.0" y="345.0"/>
+        <point x="278.0" y="275.0"/>
+        <point x="284.0" y="275.0"/>
+      </bendpoints>
+      <contentFilters/>
+    </element>
+    <element uuid="fa58cc51-9537-4676-a7c3-48e68cde260f" dockArea="left">
+      <bo>
+        <seg>feature</seg>
+        <seg>canba</seg>
+      </bo>
+      <position y="38.0"/>
+      <contentFilters/>
+    </element>
+    <element uuid="5427b21d-956b-41c8-a094-532968134b1f">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>can_bus</seg>
+      </bo>
+      <position x="276.0" y="58.0"/>
+      <size width="112.0" height="35.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="91497341-2c95-4d97-bf31-9f8725b23287">
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>pci_bus</seg>
+      </bo>
+      <position x="276.0" y="233.0"/>
+      <size width="108.0" height="40.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="096a7d44-7fb8-47c2-a4fd-4c0ac3e41d5d">
+      <element uuid="c28c3891-6225-4b96-90c4-812145e5aaae" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>canba</seg>
+        </bo>
+        <position x="183.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <element uuid="981f3c94-90b0-45ee-846e-05dd9e687bc6" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>pciba</seg>
+        </bo>
+        <position x="186.0" y="60.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>power_pc</seg>
+      </bo>
+      <position x="12.0" y="81.0"/>
+      <size width="244.0" height="110.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="3221875d-e770-4971-b706-2c4c44820c62">
+      <element uuid="4b33754d-74f8-4a20-b514-fda9c9b28232" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>pciba</seg>
+        </bo>
+        <position x="141.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>ram</seg>
+      </bo>
+      <position x="59.0" y="211.0"/>
+      <size width="197.0" height="60.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <element uuid="affa4f5b-027e-4f13-8b9d-5546454c73db">
+      <element uuid="7dec7267-2a48-49c5-856e-9984530526c0" dockArea="right">
+        <bo>
+          <seg>feature</seg>
+          <seg>pciba</seg>
+        </bo>
+        <position x="141.0" y="10.0"/>
+        <contentFilters/>
+      </element>
+      <bo>
+        <seg>subcomponent</seg>
+        <seg>rom</seg>
+      </bo>
+      <position x="59.0" y="291.0"/>
+      <size width="197.0" height="60.0"/>
+      <contentFilters>
+        <filter>features</filter>
+        <filter>internalFeatures</filter>
+        <filter>processorFeatures</filter>
+        <filter>connections</filter>
+        <filter>flowSpecifications</filter>
+      </contentFilters>
+    </element>
+    <bo>
+      <seg>classifier</seg>
+      <seg>cc_mcu.single</seg>
+    </bo>
+    <position x="12.0" y="12.0"/>
+    <size width="461.0" height="363.0"/>
+    <contentFilters>
+      <filter>features</filter>
+      <filter>internalFeatures</filter>
+      <filter>processorFeatures</filter>
+      <filter>connections</filter>
+      <filter>flowSpecifications</filter>
+      <filter>subcomponents</filter>
+    </contentFilters>
+  </element>
+  <config type="structure" connectionPrimaryLabelsVisible="false">
+    <enabledAadlProperties/>
+    <context>
+      <seg>classifier</seg>
+      <seg>hardwareplatform::cc_mcu.single</seg>
+    </context>
+  </config>
+</diagram:Diagram>
