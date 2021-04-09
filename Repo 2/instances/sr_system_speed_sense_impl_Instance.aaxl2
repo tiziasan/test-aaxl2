@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<instance:SystemInstance xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:aadl2="http://aadl.info/AADL/2.0" xmlns:instance="http://aadl.info/AADL/2.0/instance" name="speed_sense_impl_Instance" category="device">
+  <featureInstance name="speed_val" direction="out">
+    <feature xsi:type="aadl2:DataPort" href="../sr_system.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedDataPort.0"/>
+  </featureInstance>
+  <featureInstance name="bus_access" category="busAccess">
+    <feature xsi:type="aadl2:BusAccess" href="../sr_system.aadl#/0/@ownedPublicSection/@ownedClassifier.14/@ownedBusAccess.0"/>
+  </featureInstance>
+  <systemOperationMode name="No Modes"/>
+  <componentImplementation xsi:type="aadl2:DeviceImplementation" href="../sr_system.aadl#sr_system.speed_sense.impl"/>
+</instance:SystemInstance>
